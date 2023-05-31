@@ -54,26 +54,6 @@ fun DeviceInformationApp(
 
                     }
                 }
-//                it.arguments?.getStringArrayList("deviceInformation")
-//                    ?.let { jsonListDeviceInformationString ->
-//                        var listDeviceInformation = mutableListOf<DeviceInformation>()
-//                        jsonListDeviceInformationString.forEach { jsonDeviceInformationString ->
-//                            listDeviceInformation.add(
-//                                jsonDeviceInformationString.fromJsonApi(
-//                                    DeviceInformation::class.java
-//                                )
-//                            )
-//                        }
-////                    val deviceInformation = jsonDeviceInformationString.fromJsonApi(
-////                        DeviceInformation::class.java
-////                    )
-//                        DetailScreen(
-//                            deviceInformation = listDeviceInformation,
-//                            navigateBack = {
-//                                navController.navigateUp()
-//                            }
-//                        )
-//                    }
             }
         }
     }
